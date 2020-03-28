@@ -1,0 +1,5 @@
+import win32api as w  #win32api库要先下载
+
+while 1:
+  for i range(255):
+    w.keybd_event(i,0,0,0)
